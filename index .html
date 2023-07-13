@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <meta name="author" content="Kinga">
+    <title>Brath</title>
+
+    <link
+          rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+</head>
+<body>
+    <div class="menu">
+        <div class="teljes-logo">
+            <img src="./images/logo-brath.png">
+        </div>
+        <div class="down-img"><img src="./images/down.png">
+        </div> 
+        <div class="dropdown">
+            <div onclick="toggleDropdown()" class="dropbtn"></div>
+            <ul id="myDropdown" class="dropdown-content">
+              <li href="#">Die Metzgerei<br></li>
+              <li href="#">Dry-aged<br></li>
+              <li href="#">Fleischversand<br></li>
+              <li href="#">Events/Kurse<br></li>
+              <li href="#">Partyservice<br></li>
+              <li href="#">Tagessen<br></li>
+              <li href="#">Kontakt</li>
+              <li class="download-link">Download</li>
+            </ul>
+        </div>
+        <!-- <div onclick="myFunction()" class="dark-light"></div>  -->
+        <!-- <div onclick="myFunction()" class="theme-toggle"> -->
+        <!-- <input type="checkbox" id="theme-toggle"> -->
+        <div id="modeButton" class="dark-light"></div>
+
+  <script src="script.js"></script>
+        </div>
+    </div>
+    
+
+    <div class="opening-hours">
+        <img src="./images/clock.png">
+        <span style="font-weight: bold;">Opentime:</span>
+        <span class="indented">Di.-Fr.: 07:00-13:00 und 15:00-18:00.</span>
+        <span class="indented">Sa.: 07:30 - 12:30</span>
+    </div>
+   
+    <swiper-container class="content-container heiko" pagination="true">
+        <div class="swiper-slide"
+            style="background-image:url(./images/Heiko.jpg)"></div>
+        <div class="swiper-slide"
+            style="background-image:url(./images/HeikoSlide2.webp)"></div>     
+        <div class="swiper-slide"
+            style="background-image:url(./images/HeikoSlide3.jpeg)"></div>
+        <div class="swiper-slide"
+            style="background-image:url(./images/HeikoSlide4.webp)"></div>
+        <div class="swiper-slide"
+            style="background-image:url(./images/HeikoSlide5.jpg)"></div>
+    </swiper-container>     
+  
+
+
+    <div class="hover-text-box">
+        <div class="title">Heigo Brath<br>Metzgereimeister<br></div>
+        <div class="text-container">Deutsches Ipsum Dolor deserunt dissentias Grimms Märchen et. Tollit argumentum ius an. Pfannkuchen
+             lobortis elaboret per ne, nam Aperol Spiritz probatus pertinax.</div>
+    </div>
+
+    <div class="paragraph">
+        <div class="p-text"> <h1>Dry aged<br></h1><h2>Alte Wutz, Dry Aged<br></h2>Halt amet, consectetur Handtasche elit, sed do eiusmod <br> tempor Stuttgart ut labore et
+             dolore magna 99 Luftballons Ut<br> enim ad minim veniam, Turnbeutel nostrud exercitation <br> ullamco laboris nisi Sprechen Sie deutsch aliquip ex ea <br> commodo consequat.
+             Wiener Schnitzel aute irure dolor in <br>reprehenderit Guten Tag mollit anim Stuttgart.<br>
+             id latine indoctum complectitur HugoClub Mate mea meliore <br>denique nominavi id. Ohrwurm expetenda nam an, his ei <br>Reise euismod assentior.<br>
+             <button class="Dry-aged">Dry aged</button>
+             <button class="Alte-Wurtz"> Alte Wurtz</button>
+        </div>
+        <div class="p-img"><img class="meat" src="./images/g.meat.jpg"><br>
+        <img src="./images/meat2.png"></div>
+    </div>
+
+    <div class="paragraph2">
+        <div class="p-text2"> <h1>Buchen Sie den <br>Grillkurs jetzt<br><br></h1>professioneller Lehrer<br>ausgezeichneter Metzger<br>1 Tag<br>lernen Sie die Kunst des Grillens<br>
+             <button class="Grillkurs">Grillkurs</button>
+        </div>
+        <img class="grill" src="./images/grill.jpg">
+    </div>
+
+    <div class="paragraph3">
+        <div class="p-text3"> <h1>Das Handwerk<br></h1><h2>alles über unsere Hausgemachte Produkte<br><br><br></h2>Halt amet, consectetur Handtasche elit, sed do eiusmod tempor Stuttgart ut labore et dolore<br> magna 99 Luftballons Ut enim
+             ad minim veniam, Turnbeutel nostrud exercitation ullamco<br> laboris nisi Sprechen Sie deutsch aliquip ex ea commodo consequat.<br>
+            Wiener Schnitzel aute irure dolor in Guten Tag mollit anim Stuttgart.<br>
+            id latine indoctum complectitur HugoClub Mate mea meliore denique nominavi id. Ohrwurm expetenda nam an, his ei Reise euismod assentior<br>
+             <button class="Das-Handwerk">Das Handwerk</button>
+        </div>
+        <br><br><br>
+        <img class="line"  src="./images/line.png">
+    </div>
+
+    <div class="food-img"><img class="hot-dog" src="./images/hot-dogs.png">
+        <img class="chicken" src="./images/csirke.png">
+        <img class="pig" src="./images/diszno.png">
+        <img class="cattle" src="./images/marha.png"></div>
+
+    <div class="seasoning">
+            <div class="sea-pic"><img src="./images/seasoning.jpg"></div>
+            <div class="s-parag"> <h1>Custome spices for your meat<br></h1><h2>Turnbeutel nostrud exercitation ullamco 
+                Sprechen Sie deutsch<br></h2>Odio principes iracundia Müller Rice pri. Ut vel solum <br>mandamus, Kartoffelkopf natum adversarium ei ius, diam<br>
+                Schmetterling honestatis eum.<br>
+                Wiener Schnitzel amet, consectetur Handtasche elit, sed do<br> eiusmod tempor Stuttgart ut labore et dolore magna 99<br> Luftballons Ut enim ad minim veniam,
+                 Turnbeutel nostrud<br> exercitation ullamco laboris nisi Sprechen Sie deutsch aliquip<br> ex ea commodo consequat. <br>
+            </div>
+    </div>
+    <div class="Fleischversand" data-aos="fade-up">
+        <div class="f-text"><h1>Fleischversand<br></h1></div>
+        <button class="f-button">Jetzt bestellen</button>
+    </div>
+
+    <div class="logo_2">
+        <div class="logo3000"><img src="./images/logo3000.png"></div>
+        <div class="logo-paragraph"> <h1>Metzgerei Brath ist Mitglied<br> 
+            im Genussnetzwerk<br></h1>
+        <button class="Gehen-zu-site">Gehen zu site</button></div>
+    </div>
+    <div class="line-place">
+        <img class="line2" src="./images/line.png"></div>
+
+
+    <div class="gold">
+        <div class="gold-text"> <h1>Auszeichnungen</h1></div>
+        <div class="gold-medals">
+            <div class="gold1"><img  src="./images/gold1.png"><br>Tollit argumentum genau<br>Saepe lobortis</div>
+            <div class="gold1"><img  src="./images/gold2.png"><br>Schneewittchen<br>denique</div>
+            <div class="gold1"><img  src="./images/gold3.png"><br>Grimms Märchen <br>expetenda</div>
+            <div class="gold1"><img  src="./images/gold4.png"><br>Mettwurst mei <br>ullum gloriatur.</div>
+        </div>
+        
+    </div>
+    <div class="line-place">
+        <img class="line2" src="./images/line.png"></div>
+
+    <div class= "heading">
+        <p class="heading-p">Empfehlungs</p><br>
+        <h1 class="heading-h1">Was die Leute über uns sagen</h1></div>
+
+
+        <swiper-container class="content-container heiko" pagination="true">
+            <div class="swiper-slide">
+                <div class="rectangle">
+                    <div class="text">Sprechen Sie deutsch aliquip ex ea commodo <br>consequat. Wiener Schnitzel aute
+                        irure dolor in<br> reprehenderit Guten Tag mollit anim Stuttgart.<br>
+                    </div>
+                    <div class="text1">Maria Kartofeln</div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="rectangle2">
+                    <div class="two-images">
+                        <img class="grill.s"  src="./images/grill.svg">
+                        <img class="stars"  src="./images/stars.png">
+                    </div>
+                
+                    <div class="text2">Wiener Schnitzel amet, consectetur Handtasche<br> elit, sed do eiusmod tempor Stuttgart 
+                        ut labore<br> et dolore magna  Luftballons Ut Turnbeutel <br>nostrud exercitation ullamco .<br> 
+                    </div>
+                    <div class="text3"><br>Halling Tobias<br>Koch
+                    </div>
+                </div>
+            </div>     
+            <div class="swiper-slide">
+                <div class="rectangle3">
+                    <div class="text4">Achtung fur atine indoctum complectitur<br> HugoClub Mate mea meliore denique nominavi <br> id.
+                    Ohrwurm expetenda nam an, his ei Reise <br>euismod assentior.<br> 
+                    </div>
+                    <div class="text5">Rene Weinstein</div>
+                </div>
+            </div>    
+        </swiper-container>     
+      
+    <div class="Alle-line"><button class="Alle-Berichte">Alle Berichte</button></div>
+
+
+    <footer>
+    <div class="footer1">
+        <div class="company">
+            <p class="dvg-information1"> <img src="./images/adress.png" alt=""> Klauprechtstraße  25<br>
+                76137 Karlsruhe, Germany<br>
+            <p class="dvg-information2"><img src="./images/phone.png" alt=""> +49 721 358060<br></p>
+
+            <p class="dvg-information3"><img src="./images/email.png" alt=""> info@partyservice-brath.de</p>
+            </p>
+        </div>
+        <div> <img src="./images/ceglogo.png" alt=""></div>
+            <div class="social">
+                <p>Besuchen Sie uns auf: </p>
+                <ul class="social">
+                    <li><a href=""><img src="./images/twitter.png" alt=""></a></li>
+                    <li><a href=""><img src="./images/facebook.png" alt=""></a></li>
+                    <li><a href=""><img src="./images/insta.png" alt=""></a></li>
+                    <li><a href=""><img src="./images/YouTube.png" alt=""></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer2">
+            <p class="copyright">Copyright © 2021 by Metzgerei Heiko Brath GmbH,Deutchland</p>
+            <span>Powered by: <a href="">StudioPresent</a></span>
+        </div>
+    </footer>
+
+    <button id="open-popup">Open Pop-up</button>
+
+    <div id="popup-overlay">
+        <div id="popup">
+            <h2>Order online!</h2>
+            <p>There is 15% discount.</p>
+            <button id="close-popup">Close</button>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-element-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+    //burger menu
+    console.log('hello');
+    function toggleDropdown() {
+        console.log('click');
+        var dropdown = document.getElementById("myDropdown");
+        if (dropdown.style.display === "none") {
+            dropdown.style.display = "flex";
+        } else {
+            dropdown.style.display = "none";
+        }
+    }
+
+    // Swiper
+    var swiper = new Swiper(".mySwiper", {
+        pagination: {
+        el: ".swiper-pagination",
+        },
+    });
+
+    // cards
+    var swiper = new Swiper(".last-page", {
+    effect: "coverflow",
+    grabCursor: true,
+    centeredSlides: true,
+    slidesPerView: "auto",
+    coverflowEffect: {
+    rotate: 50,
+    stretch: 0,
+    depth: 100,
+    modifier: 1,
+    slideShadows: true,
+    },
+    pagination: {
+    el: ".swiper-pagination",
+    },
+    });
+    var swiper = new Swiper(".mySwiper", {
+    navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+        },
+    });
+
+    //    parallax
+    AOS.init();
+
+    // dark/light
+    // var darkModeToggle = document.getElementById("darkModeToggle");
+    //     var body = document.body;
+
+    //     darkModeToggle.addEventListener("click", function() {
+    //         body.classList.toggle("dark-mode");
+    //         darkModeToggle.classList.toggle("toggle-icon");
+    //     });
+
+    // function myFunction() {
+    // var element = document.body;
+    // var themeToggle = document.getElementsByClassName("theme-toggle");
+    // }
+    // themeToggle.addEventListener("change", function() {
+    //     if (this.checked) {
+    //         document.body.classList.add("dark");
+    //         document.body.classList.remove("light");
+    //     } else {
+    //         document.body.classList.add("light");
+    //         document.body.classList.remove("dark");
+    //     }
+    // });
+
+    const modeButton = document.getElementById("modeButton");
+
+    modeButton.addEventListener("click", function() {
+    document.body.classList.toggle("dark");
+    });
+
+    // popup
+    var popupOverlay = document.getElementById("popup-overlay");
+
+    // Megjelenitjuk a pop-up ablakot 3 masodperc utan
+    setTimeout(function() {
+    popupOverlay.style.display = "block";
+    }, 3000);
+
+    var closePopupButton = document.getElementById("close-popup");
+    closePopupButton.addEventListener("click", function() {
+      popupOverlay.style.display = "none";
+    });
+
+    </script>
+</body>
+</html>
